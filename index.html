@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<title>module3-solution</title>
+<style>
+* {
+  box-sizing: border-box;
+ }
+.row {
+  width: 100%;
+  min-height: 30px;
+  overflow: auto;
+}
+body {
+  font-family: arial;
+  font-size: 16px;
+  text-align: center;
+ }
+</style>
+</head>
+<body>
+  <header>
+  <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food, LLC<h1></a>
+          </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false" class="float-right">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+           </button>
+           </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+            <a href="#chicken" class="visible-xs">Chicken</a>
+           </li>
+           <li>
+             <a href="#beef" class="visible-xs">Beaf</a>
+           </li>
+           <li>
+             <a href="#sushi" class="visible-xs">Sushi</a>
+           </li>
+         </ul>
+       </div>
+      </div>
+    </nav>
+</header>
+<h1>Our Menu</h1>
+<div class="row">
+     <section id="chicken" class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+      <h2>Chicken</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere dapibus elementum. Ut vitae nunc mollis, placerat turpis ac, ullamcorper neque. Pellentesque et mi a mauris varius faucibus. Sed imperdiet molestie turpis ac aliquet. Ut eu ante urna. Donec non leo vel quam sagittis fringilla non eu dui. Aliquam et eros ornare, tristique erat quis, suscipit urna. Cras quis porttitor enim.</p>
+    </section>
+    <section id="beef" class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+      <h2>Beef</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere dapibus elementum. Ut vitae nunc mollis, placerat turpis ac, ullamcorper neque. Pellentesque et mi a mauris varius faucibus. Sed imperdiet molestie turpis ac aliquet. Ut eu ante urna. Donec non leo vel quam sagittis fringilla non eu dui. Aliquam et eros ornare, tristique erat quis, suscipit urna. Cras quis porttitor enim.</p>
+    </section>
+    <section id="sushi" class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+      <h2>Sushi</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere dapibus elementum. Ut vitae nunc mollis, placerat turpis ac, ullamcorper neque. Pellentesque et mi a mauris varius faucibus. Sed imperdiet molestie turpis ac aliquet. Ut eu ante urna. Donec non leo vel quam sagittis fringilla non eu dui. Aliquam et eros ornare, tristique erat quis, suscipit urna. Cras quis porttitor enim.</p>
+    </section>
+  </div>
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
